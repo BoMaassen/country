@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.world-map {
+    width: 100vw;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: 4px green solid;
+    border-radius: 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+li {
+    list-style-type: none;
+    flex-basis: 200px;
+    padding: 10px 20px;
+
+
+}
+
+.flag-icon{
+    font-size: 100px;
+}
+
+.africa-region{
+    color: blue;
+}
+
+.americas-region{
+    color: green;
+}
+
+.asia-region {
+    color: red;
+}
+
+.europe-region {
+    color: yellow;
+}
+
+.oceania-region {
+    color: purple;
+}
+
+.default-region{
+    color: grey;
+}
